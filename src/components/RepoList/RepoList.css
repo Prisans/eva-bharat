@@ -1,0 +1,67 @@
+.repo-list-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.repo-controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.repo-card {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.repo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.repo-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.repo-stats {
+    font-size: 0.9rem;
+    color: #586069;
+    margin-top: 5px;
+}
+
+.repo-description {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.bookmark-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.bookmark-btn.active {
+    background: #ffd700;
+}
+
+.back-btn {
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.sort-select,
+.filter-select {
+    padding: 5px;
+}
