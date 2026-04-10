@@ -1,16 +1,59 @@
-# React + Vite
+# GitHub Explorer (Eva Bharat)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React application for exploring GitHub users and their repositories. Built with a focus on speed, clean UI, and ease of use.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **User Search:** Real-time search with intelligent debouncing to minimize API calls.
+- **Repository View:** Detailed listing of public repositories for any selected user.
+- **Pagination:** Smooth navigation through search results.
+- **Theme Toggle:** Effortless switching between Light and Dark modes.
+- **Responsive UI:** Fully optimized for seamless use across different devices and screen sizes.
+- **Loading & Error Handling:** Clear visual feedback for all application states.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** Vanilla CSS (Modern CSS variables for theme management)
+- **API:** [GitHub REST API](https://docs.github.com/en/rest)
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To get started with the project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd eva-bharat
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📖 Usage
+
+1. Enter a GitHub username in the search bar.
+2. Browse the results and use pagination to see more users.
+3. Click on a user's card to view their repositories.
+4. Use the theme toggle in the header to switch between Dark and Light modes.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request or open an issue.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
